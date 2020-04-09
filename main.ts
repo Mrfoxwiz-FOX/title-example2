@@ -1,6 +1,7 @@
 namespace SpriteKind {
     export const Play_Button = SpriteKind.create()
     export const CutScene1 = SpriteKind.create()
+    export const INACTIVEPLAY = SpriteKind.create()
 }
 namespace myTiles {
     //% blockIdentity=images._tile
@@ -22,8 +23,234 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `
+    //% blockIdentity=images._tile
+    export const tile1 = img`
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d d d d d d d d d d d d d 1 1 d 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+`
+    //% blockIdentity=images._tile
+    export const tile2 = img`
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b 1 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b 1 1 
+b b b b b b b b b b b b b b 1 1 
+`
+    //% blockIdentity=images._tile
+    export const tile3 = img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`
+    //% blockIdentity=images._tile
+    export const tile4 = img`
+1 d b b b b b b b b b b b b b b 
+1 1 b b b b b b b b b b b b b b 
+1 1 b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 1 b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+`
+    //% blockIdentity=images._tile
+    export const tile5 = img`
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+b b b b b b b b b b b b b b b b 
+d 1 1 d d d d d d d d d d d 1 d 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+`
+    //% blockIdentity=images._tile
+    export const tile6 = img`
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d d d d d d d d d d d d d d d 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+`
+    //% blockIdentity=images._tile
+    export const tile7 = img`
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+d d d d d d d d d d d d d d d 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+`
+    //% blockIdentity=images._tile
+    export const tile8 = img`
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 d d d d d d d d d d d d d d d 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+1 d b b b b b b b b b b b b b b 
+`
+    //% blockIdentity=images._tile
+    export const tile9 = img`
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d d d d d d d d d d d d d d d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+b b b b b b b b b b b b b b d 1 
+`
+    //% blockIdentity=images._tile
+    export const tile10 = img`
+. . a . a a a . . . . . a . a . 
+. . a a . . a a . . a a . a a . 
+. . . a a . . a . a a . a a . . 
+. . . . a a . a . a . a a . . a 
+. . . . . a . a . a . a . . . a 
+a . . . . a a f f f a a . . a a 
+a a a a . . f f f f f . a a a . 
+. . . . a a f f 9 f a a a . . . 
+. a a a a a f f f f f a a . . . 
+a a . . . a a f f f a a a a a . 
+a . . . . a . a a . . a . . a a 
+. . . . a a . a . a . a a . . a 
+. . . a a . . a . a . . a a . . 
+. . a a . . a a . a . . . a a . 
+. a a . . a a . . a a a . . a a 
+a a . . a a . . . . . a . . . a 
+`
 }
 function WARPROOM () {
+    game.setDialogTextColor(15)
+    game.setDialogCursor(img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . f . . . . . . 
+. . . . . . . . f . f . . . . . 
+. . . . . . . . . f . f . . . . 
+. . . . . . . . . . f . f . . . 
+. . . . . . . . . . . f . f . . 
+. . . . . . . . . . . . f . f . 
+f f f f f f f f f f f f f f f . 
+. . . . . . . . . . . . f . f . 
+. . . . . . . . . . . f . f . . 
+. . . . . . . . . . f . f . . . 
+. . . . . . . . . f . f . . . . 
+. . . . . . . . f . f . . . . . 
+. . . . . . . . . f . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`)
+    game.setDialogFrame(img`
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 
+2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 
+2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 
+2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 
+2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 
+2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 
+2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 
+2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 
+2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 
+2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 
+2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 
+2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 
+2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+`)
     scene.setBackgroundImage(img`
 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
@@ -136,16 +363,68 @@ function WARPROOM () {
 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-b b b b b b b b b b b b 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b 
-b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b 
-b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b 
-b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b 
-b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
 `)
+    tiles.setTilemap(tiles.createTilemap(
+            hex`10001000080101010101010101010101010101090400000000000000000000000000000204000000000000000000000000000002040000000000000000000000000000020400000000000000000000000000000204000000000000000000000000000002040000000000000000000000000000020400000000000000000000000a0000020400000000000000000000000000000204000000000000000000000000000002040000000000000000000000000000020400000000000000000000000000000204000000000000000000000000000002040000000000000000000000000000020400000000000000000000000000000206050505050505050505050505050507`,
+            img`
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+`,
+            [myTiles.tile0,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,myTiles.tile9,myTiles.tile10],
+            TileScale.Sixteen
+        ))
+    PlayChar = sprites.create(img`
+. . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . f f f f f . . . . . . . . . . . . 
+. . . . . . . . f d d d d d f . . . . . . . . . . . 
+. . . . . . . . f d d d d d f . . . . . . . . . . . 
+. . . . . . . . f d d f d f f . . . . . . . . . . . 
+. . . . . . . . f d d d d d f . . . . . . . . . . . 
+. . . . . . . . f d d f f d f . . . . . . . . . . . 
+. . . . . . . . f f d d d f f . . . . . . . . . . . 
+. . . . . . . . . f f d f f . . . . . . . . . . . . 
+. . . . . . . . . . . f . . . . . . . . . . . . . . 
+. . . . . . . . . . . f . . . . . . . . . . . . . . 
+. . . . . . . . . . f f f . . . . . . . . . . . . . 
+. . . . . . . . . f . f . f . . . . . . . . . . . . 
+. . . . . . . . f . . f . . f . . . . . . . . . . . 
+. . . . . . . f . . . f . . . f . . . . . . . . . . 
+. . . . . . . . . . . f . . . . . . . . . . . . . . 
+. . . . . . . . . . . f . . . . . . . . . . . . . . 
+. . . . . . . . . . f . f . . . . . . . . . . . . . 
+. . . . . . . . . f . . . f . . . . . . . . . . . . 
+. . . . . . . . f . . . . . f . . . . . . . . . . . 
+. . . . . . . f . . . . . . . f . . . . . . . . . . 
+. . . . . . f . . . . . . . . . f . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . 
+`, SpriteKind.INACTIVEPLAY)
+    game.showLongText("Finally, I'm back from that weird dimension. And the glitches, they're back! I gotta find out how to defeat them.", DialogLayout.Bottom)
 }
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Play_Button, function (sprite, otherSprite) {
     if (controller.A.isPressed()) {
@@ -157,6 +436,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Play_Button, function (sprite, o
         pause(14038)
         PLayerCut1.destroy()
         scene.setBackgroundColor(15)
+        WARPROOM()
     } else {
         console.log("no")
     }
@@ -1022,6 +1302,7 @@ info.onLifeZero(function () {
 	
 })
 let PLayerCut1: Sprite = null
+let PlayChar: Sprite = null
 let Play: Sprite = null
 let Cursor: Sprite = null
 color.setColor(11, color.rgb(95, 96, 97))
@@ -1044,6 +1325,7 @@ Cursor = sprites.create(img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
+Cursor.setFlag(SpriteFlag.StayInScreen, true)
 Play = sprites.create(img`
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
