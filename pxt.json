@@ -8,7 +8,8 @@
         "keyboard": "*",
         "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
         "controller": "*",
-        "Color Fading": "github:jwunderl/pxt-color#v0.1.3"
+        "Color Fading": "github:jwunderl/pxt-color#v0.1.3",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.0.4"
     },
     "description": "",
     "files": [
